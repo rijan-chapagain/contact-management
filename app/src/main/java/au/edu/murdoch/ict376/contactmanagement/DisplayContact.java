@@ -1,7 +1,4 @@
 package au.edu.murdoch.ict376.contactmanagement;
-/**
- * Created by 20160132 on 6/10/2016.
- */
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -1,8 +1,5 @@
 package au.edu.murdoch.ict376.contactmanagement;
 
-/**
- * Created by 20160132 on 6/10/2016.
- */
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Hashtable;

@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:text="ICT376"
+        android:text="Rijan's address log"
         android:textColor="#ff16ff01"
         android:textSize="35dp"/>
 
