@@ -162,8 +162,8 @@ public class DisplayContact extends Activity {
             if(Value>0){
                 if(mydb.updateContact(id_To_Update,name.getText().toString(), phone.getText().toString(), email.getText().toString(), street.getText().toString(), place.getText().toString())){
                     Toast.makeText(getApplicationContext(), "Updated", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-                    startActivity(intent);
+//                    Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+//                    startActivity(intent);
                 }
                 else{
                     Toast.makeText(getApplicationContext(), "not Updated", Toast.LENGTH_SHORT).show();
@@ -177,8 +177,8 @@ public class DisplayContact extends Activity {
                 else{
                     Toast.makeText(getApplicationContext(), "not done", Toast.LENGTH_SHORT).show();
                 }
-                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+//                startActivity(intent);
             }
         }
     }
